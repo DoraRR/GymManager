@@ -1,1 +1,0 @@
-D:\Dev\GymManager\GymManagerApp\GymManagerApp.csproj;x64

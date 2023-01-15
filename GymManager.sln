@@ -5,9 +5,9 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManager", "GymManager.csproj", "{F9B5AEF0-766D-4973-AF6F-811547C9BDD0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagerApi", "GymManagerApi\GymManagerApi.csproj", "{075666AD-6F52-4166-AF0A-9B32735DE84C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymManagerApi", "..\GymManagerApi\GymManagerApi.csproj", "{075666AD-6F52-4166-AF0A-9B32735DE84C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagerApp", "GymManagerApp\GymManagerApp.csproj", "{69B95D02-E41F-4FBB-8142-D3CCC8BC6C1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagerApp", "..\GymManagerApp\GymManagerApp.csproj", "{69B95D02-E41F-4FBB-8142-D3CCC8BC6C1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

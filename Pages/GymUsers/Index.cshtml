@@ -6,10 +6,10 @@
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Users <a asp-page="Create" class="btn btn-primary">Create</a></h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    
 </p>
 <table class="table">
     <thead>
@@ -39,13 +39,11 @@
                 @Html.DisplayFor(modelItem => item.Gender)
             </td>
             <td>
-                <a asp-page="./SetWorkoutPlan" asp-route-id="@item.Id">Workout Plans</a>
+                    <a asp-page="./SetWorkoutPlan" asp-route-id="@item.Id" class="btn btn-primary">Workout Plans</a>
                  @if (User.IsInRole("Admin"))
                  {
-                     @:|
-                     <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
-                     @:|
-                     <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                        <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                        <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
                  }
             </td>
         </tr>
